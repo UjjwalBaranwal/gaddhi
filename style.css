@@ -1,0 +1,178 @@
+* {
+  color: aliceblue;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background: #000;
+}
+header {
+  margin: auto;
+  width: 1200px;
+}
+img {
+  margin: left;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  text-align: center;
+  margin: 0%;
+  font-family: "Cooper Black","Segoe UI",  Geneva, Verdana, ;
+  font-size: 70px;
+  /* float: top left; */
+  flex: 50%;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+}
+.top {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Rashi Hebrew', serif;
+}
+p {
+  color: white;
+}
+.heading {
+  /* color: rgb(7, 25, 19); */
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  font-size: 40px;
+}
+/* nav bar designing */
+.navbar {
+  background-color: rgb(13, 11, 11);
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.search {
+  float: right;
+  /* color: black; */
+  padding: 8px 70px;
+}
+.navbar input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 3px 17px;
+  width: 129px;
+}
+.navbar li a:hover {
+  text-decoration: underline red;
+}
+.page-content {
+  font-size: 18px;
+  line-height: 2em;
+  font-size: 1.2em;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+
+.container {
+  width: 95%;
+  max-width: 1260px;
+  margin: auto;
+}
+h2.heading {
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card {
+  width: 100%;
+  height: 400px;
+  display: block;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  filter: blur(3px);
+  transition: background 0.8s linear;
+}
+.card0 {
+  background: url(/img/thor1.jpg) center center no-repeat;
+  background-size: 400px;
+  /* border: 2px solid red; */
+  box-shadow: 7px 5px 20px grey;
+}
+.card1 {
+  background: url(/img/iron2.jpg) center center no-repeat;
+  box-shadow: 7px 5px 20px grey;
+  background-size: 400px;
+}
+.card2 {
+  background: url(/img/captain1.jpg) center center no-repeat;
+  box-shadow: 7px 5px 20px grey;
+  background-size: 400px;
+}
+.card3 {
+  background: url(/img/bw.jpg) center center no-repeat;
+  box-shadow: 7px 5px 20px grey;
+  background-size: 400px;
+}
+.card:hover {
+  background-size: 600px;
+  background-position: left center;
+  filter: unset;
+  cursor: pointer;
+}
+.overlay {
+  opacity: 1;
+  height: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.111);
+  transition: opacity 0.8s linear;
+}
+h2,
+p {
+  color: #fff;
+}
+.content > h2 {
+  margin-bottom: 10px;
+}
+
+.content {
+  height: 90%;
+  position: relative;
+  right: -300px;
+  transition: right 0.8s linear;
+}
+.card:hover .content {
+  right: 0;
+}
+.card:hover {
+  opacity: 1;
+}
+
+p{
+  margin: 10px 70px 10px 70px;
+}
